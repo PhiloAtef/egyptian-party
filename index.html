@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Egyptian Party</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://kit.fontawesome.com/1519f54463.js" crossorigin="anonymous"></script>
+
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    
+    <nav class="bg-black text-white position-fixed h-100 overflow-hidden">
+      <button class="btn m-4 p-2 position-absolute top-0 end-0 text-white">
+        <i class="fa-solid fa-xmark fa-2xl"></i>
+      </button>
+      <div class="pt-5">
+        <h2 class="px-5 py-4">Home</h2>
+        <h2 class="px-5 py-4">Details</h2>
+        <h2 class="px-5 py-4">Duration</h2>
+        <h2 class="px-5 py-4">Contact</h2>
+      </div>
+    </nav>
+    <main
+      id="home"
+      class="min-vh-100 position-relative d-flex justify-content-center align-items-center text-white"
+    >
+      <div class="container text-center">
+        <h1>Egyptian Party</h1>
+        <p>Let's have Fun</p>
+      </div>
+      <div class="context-menu fs-2 position-absolute start-0 ms-2">
+        <i class="fa-solid fa-bars"></i>
+        <span>open</span>
+      </div>
+    </main>
+    <section id="details" class="py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <div class="singer-item-list text-white">
+              <div class="bg-red-50 cursor-pointer">
+                <h1 class="m-0 p-2">Singer one</h1>
+              </div>
+              <div class="singer-item-text bg-black bg-opacity-25 text-black">
+                <p class="fs-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  quasi, voluptatibus deleniti sapiente eveniet qui amet
+                  voluptatum saepe dicta reprehenderit? Voluptatum, sunt
+                  perspiciatis earum molestias est voluptas unde ipsum ducimus
+                  quas possimus praesentium quisquam dolorum saepe, iusto maxime
+                  porro at.
+                </p>
+              </div>
+            </div>
+
+            <div class="singer-item-list text-white">
+              <div class="bg-red-50 cursor-pointer">
+                <h1 class="m-0 p-2">Singer two</h1>
+              </div>
+              <div class="singer-item-text bg-black bg-opacity-25 text-black">
+                <p class="fs-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  quasi, voluptatibus deleniti sapiente eveniet qui amet
+                  voluptatum saepe dicta reprehenderit? Voluptatum, sunt
+                  perspiciatis earum molestias est voluptas unde ipsum ducimus
+                  quas possimus praesentium quisquam dolorum saepe, iusto maxime
+                  porro at.
+                </p>
+              </div>
+            </div>
+
+            <div class="singer-item-list text-white">
+              <div class="bg-red-50 cursor-pointer">
+                <h1 class="m-0 p-2">Singer three</h1>
+              </div>
+              <div class="singer-item-text bg-black bg-opacity-25 text-black">
+                <p class="fs-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  quasi, voluptatibus deleniti sapiente eveniet qui amet
+                  voluptatum saepe dicta reprehenderit? Voluptatum, sunt
+                  perspiciatis earum molestias est voluptas unde ipsum ducimus
+                  quas possimus praesentium quisquam dolorum saepe, iusto maxime
+                  porro at.
+                </p>
+              </div>
+            </div>
+
+            <div class="singer-item-list text-white">
+              <div class="bg-red-50 cursor-pointer">
+                <h1 class="m-0 p-2">Singer four</h1>
+              </div>
+              <div class="singer-item-text bg-black bg-opacity-25 text-black">
+                <p class="fs-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                  quasi, voluptatibus deleniti sapiente eveniet qui amet
+                  voluptatum saepe dicta reprehenderit? Voluptatum, sunt
+                  perspiciatis earum molestias est voluptas unde ipsum ducimus
+                  quas possimus praesentium quisquam dolorum saepe, iusto maxime
+                  porro at.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="duration" class="countdown">
+      <div class="container text-white text-center p-5">
+        <div class="row py-5 g-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="border border-1 border-white p-5">
+              <h2 id="days"></h2>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="border border-1 border-white p-5">
+              <h2 id="hours"></h2>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="border border-1 border-white p-5">
+              <h2 id="minutes"></h2>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="border border-1 border-white p-5">
+              <h2 id="seconds"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="pt-5">
+      <div class="container py-5 text-black-50">
+        <h2 class="text-dark fw-bold">JOIN US</h2>
+        <p class="text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, nisi?
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <h5 class="text-dark fw-bold">CONTACT INFO</h5>
+            <p>
+              Why you should hire me writeup Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+            </p>
+            <div class="text-center">
+              <p class="pt-4">
+                <i class="fa-solid fa-location-pin"></i>
+                <span class="ps-4"
+                  >New Street 22545, Nexa Road, New York City, USA</span
+                >
+              </p>
+              <p class="pt-4">
+                <i class="fa-solid fa-envelope"></i>
+                <a
+                  class="text-decoration-none text-danger ps-4"
+                  href="mailto:hello@uigrid.com"
+                  >hello@uigrid.com</a
+                >
+              </p>
+              <p class="pt-4">
+                <i class="fa-solid fa-phone"></i>
+                <span class="ps-4">001-000-000-000</span>
+              </p>
+            </div>
+            <div class="d-flex py-5">
+              <div class="p-2">
+                <div class="icon-container p-1">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="icon-container p-1">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="icon-container p-1">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="icon-container p-1">
+                  <i class="fa-brands fa-dribbble"></i>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="icon-container p-1">
+                  <i class="fa-brands fa-pinterest"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <form>
+              <input
+                class="form-control rounded-0"
+                type="text"
+                placeholder="Enter Name"
+                required
+              />
+              <input
+                class="form-control rounded-0 mt-4"
+                type="email"
+                placeholder="Enter Email"
+                required
+              />
+              <textarea
+                class="form-control rounded-0 mt-4"
+                name="message"
+                id="messageTextArea"
+                rows="6"
+                placeholder="Enter Message"
+                maxlength="100"
+                required
+              ></textarea>
+              <p class="pt-3">
+                <span id="characterLimitNumber" class="text-danger fs-5"
+                  >100</span
+                >
+                <span id="characterLimitText">Characters Reamining</span>
+              </p>
+              <button type="submit" class="btn btn-danger rounded-0 py-2 px-3">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
