@@ -6,6 +6,8 @@ main {
     background: linear-gradient(0deg, rgba(255, 74, 74, 0.5), rgba(255, 74, 74, 0.5)), url(/assets/events-heavenly-header.jpg);
     background-position: center center;
     background-size: cover;
+    min-height: 75vh;
+    height: 75vh;
 }
 
 nav {
